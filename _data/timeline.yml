@@ -1,32 +1,41 @@
-- title: Intern, TBD
-  from: 2020
-  to: 2020
-  description: 
+- title: Intern, NASA Marshall Space Flight Center
+  from: June 2020
+  to: August 2020
+  description: Testing and building a <a href = "https://catalog.data.gov/dataset/correlated-electromagnetic-levitation-actuator" target = "_blank">frictionless reaction wheel</a> using correlated electromagnets. 
 
+- title: Intern, Make Nashville
+  from: May 2020
+  to: June 2020
+  description: Developing video tutorials and workshops on blender and solidworks for the <a href="http://makenashville.org/" target="_blank">makerspace.</a> 
 
 
 - title: Researcher, Robotics and Autonomous Systems
-  from: 2018
-  to: 2020
-  description: 
-
+  from: August 2019
+  to: Present
+  description: Working with <a href="http://research.vuse.vanderbilt.edu/rasl/" target="_blank">Dr. Sarkar,</a> I am designing a rotational haptic feedback device for use in virtual reality simulations. 
+  # I am also working on developing hardware to create realistic haptic feedback to the arm for use in augmented reality.
 
 - title: Intern, Formlabs
-  from: 2018
-  to: 2018
-  description: 
+  from: June 2019
+  to: August 2019
+  description: Working with the research and development team, I designed and built a jig for factory calibration of the <a href="https://formlabs.com/3d-printers/form-3/" target="_blank">Form 3</a>. I also assembled and scripted a jig which streamlined the collection and visualization of data from hundreds of experimental trials.
 
 - title: Fellow, Vanderbilt ArtLab
-  from: 2019
-  to: 2020
-  description: 
+  from: November 2018
+  to: Present
+  description: As part of the <a href="/https://artlabvanderbilt.com/" target="_blank">ArtLab research group,</a> I meet weekly to explore the intersection of art with science, technology, engineering, and mathematics, medicine, and design. Each year I generate a kinetic art exhibit or creative code display for the ArtLab showcase.
 
 - title: Researcher, Physiological Sensing 
-  from: 2017
-  to: 2019
-  description: 
+  from: January 2018
+  to: May 2019
+  description: Working with Dr. Chrissy Marasco, I designed a custom pressure-sensitive insole circuit for prediction of fall risk and developed a workflow for creating custoom flexible circuit boards.
+
+- title: Member, Sybbure Research Program
+  from: December 2017
+  to: Present
+  description: The  <a href="/https://www.sybbure.org/" target="_blank">SyBBURE Program</a> aims to incubate and inspire the next generation of innovators through research, design, and community. Through the program, I conduct independent research projects and collaborate on team-based design projects.
 
 - title: Student, Vanderbilt University
   from: 2017
-  to: 2021
-  description: 
+  to: Present
+  description: I am studying mechanical engineering with an interest in mechanical design, controls, and robotics.

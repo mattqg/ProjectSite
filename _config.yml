@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Matt Makes
 description         : >-                               # >- means to ignore newlines until "url:"
-                     A collection of my personal projects and blog about creative coding and mechanical design. 
+                     A collection of my personal projects and writing about mechanical design and creative coding. 
                                           
 url                 : "https://https://mattqg.github.io/"                      # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : ""                               # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
