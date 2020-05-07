@@ -1,6 +1,6 @@
 ---
 name: Airplane Landing Gear 
-tools: [Python, Data Science, Data Viz]
+tools: [CAD, Failure Analysis, FEA]
 image: 
 description: 
 ---
