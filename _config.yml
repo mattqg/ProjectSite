@@ -1,12 +1,12 @@
 ### Site Settings ###
-title               : Matt Makes
+title               : Matt Makes Stuff
 description         : >-                               # >- means to ignore newlines until "url:"
                      A collection of my personal projects and writing about mechanical design and creative coding. 
                                           
 url                 : "https://https://mattqg.github.io/"                      # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : ""                               # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
 repository          : mattqg/Project_Site      # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
-#remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
+
 
 ### Author Info ###
 author:
@@ -28,7 +28,7 @@ author:
 # twitch            : your_username
 # twitter           : your_username
 # vimeo             : your_username
-# youtube           : your_channel_name
+# youtube           : mattmakes
 
 
 ### Pagination ###
