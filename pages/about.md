@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-weight: 1
+weight: 2
 ---
 
 # **About Me**
@@ -12,11 +12,11 @@ I am an engineer, inventor, coder, and artist interested in mechanical design, r
 <br>
 
 <br>
-Feel free to take a look at my work experience below or [my resume](https://resume.mattmakes.dev), and get [in contact](https://hi.mattmakes.dev). 
+Feel free to take a look at [my resume](https://resume.mattmakes.dev), and get [in contact](mailto:matt@mattmakes.dev). 
 <br>
 
 
 
-<div class="row">
+<!-- <div class="row">
 {% include about/timeline.html %}
-</div>
+</div> -->
