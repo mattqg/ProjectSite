@@ -10,7 +10,7 @@ repository: mattqg/Project_Site # repository metadata on GitHub Pages [know more
 ### Author Info ###
 author:
   name: mattqg
-  image: https://raw.githubusercontent.com/yontartu/yontartu.github.io/master/images/delicate.jpg
+  # image: 
   # behance           : your_username
   # dribbble          : your_username
   email: matt@mattmakes.dev

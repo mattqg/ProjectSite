@@ -9,9 +9,15 @@
     top: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    color: #767676;
-    font-family: 'Roboto Condensed', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    color: #343434;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    color: #505050;
+    font-family: 'Poppins', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -100,8 +106,8 @@ p {
 }
 
 .portrait {
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
     border-radius: 50%;
 }
 
