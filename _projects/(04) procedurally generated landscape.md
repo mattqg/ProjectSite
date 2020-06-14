@@ -94,7 +94,25 @@ For the front trees, I split the process into two lines, one on each side. Then,
 
 <p style="font-size:20px; padding: 1em 0 0em 0em;"> 3. Bringing It All Together</p>
 
-Now that all of the individual elements have been created, I needed to bring them together. The first thing that I did was to define all of the points for each section in the setup() loop so that the program could run quicker. To draw the elements in the draw() loop, I simply had to run through the arrays previously created. I wanted the image to change in a set time frame, so I used millis() to reset the randomSeed and rerun the functions in the setup() loop. Feel free to modify the code and create some landscapes for yourself at the [OpenProcessing page](https://www.openprocessing.org/sketch/836383/).
+Now that all of the individual elements have been created, I needed to bring them together. The first thing that I did was to define all of the points for each section in the setup() loop so that the program could run quicker. To draw the elements in the draw() loop, I simply had to run through the arrays previously created. I wanted the image to change in a set time frame, so I used millis() to reset the randomSeed and rerun the functions in the setup() loop. 
+
+``` javascript
+
+setup(){
+	randSeed = random()
+	initMountains(randSeed)
+	initTrees(randSeed)
+}
+
+draw(){
+	if 
+	drawMountains()
+	drawTrees()
+}
+```
+
+Feel free to modify the code and create some landscapes for yourself at the 
+[OpenProcessing page](https://www.openprocessing.org/sketch/836383/).
 
 {% capture carousel_images %}
 https://bit.ly/2BBbVhc
