@@ -2,7 +2,7 @@
 name: Procedurally Generated Landscapes
 tools: [p5.js, Art]
 image: "/images/ProcedurallyGeneratedLandscape/frontTrees.png"
-description: Emulating terrain with digital art.
+description: Emulating terrain with code.
 ---
 #### <b>Procedurally Generated Landscapes<b>
 <p style="font-size:15px; padding: 0 0 1em 0;">March 20, 2020</p>

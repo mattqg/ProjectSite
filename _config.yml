@@ -30,8 +30,8 @@ author:
 # youtube           : mattmakes
 
 ### Pagination ###
-paginate: 6
-paginate_path: "/articles/page-:num/"
+# paginate: 6
+# paginate_path: "/articles/page-:num/"
 
 ### Posts Permalink ###
 permalink: articles/:title
