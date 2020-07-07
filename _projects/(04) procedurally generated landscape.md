@@ -9,11 +9,11 @@ description: Emulating terrain with code.
 
 During my Artlab fellowship in 2019, I began to explore emulating nature through code. I began by looking at landscape portraits and exploring algorithms which attempted to describe them, such as the boids algorithm for simulating flocking birds. 
 
-I decided to start by recreating a simple landscape and found an abstract mountain scene shown in the image below. To use this image on my site, it would cost $3, and to get full rights to this image it would cost almost $100.
+I decided to start by recreating a simple landscape and found an abstract mountain scene shown in the image below. To use this image on my site without a watermark, it would cost $3, and to get full rights to this image it would cost almost $100.
 
 ![image](https://i.pinimg.com/736x/81/f8/07/81f807b4eb84cd2f156fb8e3a82ebae6.jpg "Building Image")
 
-These prices seemed more than necessary, and I realized that I could recreate the scene using code. I decided to utilize p5.js, a library for javascript built from processing. I split the code up into three tasks:
+These prices seemed exorbitant, and I realized that I could recreate the scene using code. I decided to utilize p5.js, a library for javascript built from processing. I split the code up into three tasks:
 
 <p style="font-size:20px; padding: 1em 0 0em 0em;"> 1. Drawing Mountain Ranges</p>
 
@@ -94,7 +94,7 @@ For the front trees, I split the process into two lines, one on each side. Then,
 
 <p style="font-size:20px; padding: 1em 0 0em 0em;"> 3. Bringing It All Together</p>
 
-Now that all of the individual elements have been created, I needed to bring them together. The first thing that I did was to define all of the points for each section in the setup() loop so that the program could run quicker. To draw the elements in the draw() loop, I simply had to run through the arrays previously created. I wanted the image to change in a set time frame, so I used millis() to reset the randomSeed and rerun the functions in the setup() loop. 
+Now that all of the individual elements have been created, I needed to bring them together. The first thing that I did was to define all of the points for the mountain and tree sections in the setup() loop. This allowed for the To draw the elements in the draw() loop, I simply had to run through the arrays previously created. I wanted the image to change in a set time frame, so I used millis() to reset the randomSeed and rerun the functions in the setup() loop. 
 
 ``` javascript
 

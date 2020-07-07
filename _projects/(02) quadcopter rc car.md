@@ -5,5 +5,5 @@ image: "/images/QuadcopterRCCar/render.png"
 description: Making a driving drone and flying car.
 ---
 
-#### <b>Plywood 3D Printer<b>
+#### <b>Quadcopter RC Car<b>
 <p style="font-size:15px; padding: 0 0 1em 0;">December 5, 2019</p>

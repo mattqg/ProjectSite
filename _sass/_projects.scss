@@ -1,10 +1,12 @@
 .project.card {
     border-radius: $rounded-borders;
     text-decoration: none!important;
+    text-size-adjust: 0;
     margin: 10px auto;
 
     .card-img-top {
         border-radius: $rounded-borders $rounded-borders 0 0;
+        overflow: hidden;
     }
 
     &:hover:not(.article) {
