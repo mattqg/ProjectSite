@@ -1,7 +1,7 @@
 ---
 name: Pressure Sensitive Insole
 tools: [PCB Design, MATLAB, Data Analysis]
-image: "/images/PressureSensingInsole/UserInterface.png"
+image: "/assets/images/PressureSensingInsole/UserInterface.png"
 description: Measuring gait with pressure sensing.
 ---
 #### <b>Pressure Sensitive Insole<b>

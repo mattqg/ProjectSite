@@ -1,7 +1,7 @@
 ---
 name: Procedurally Generated Landscapes
 tools: [p5.js, Art]
-image: "/images/ProcedurallyGeneratedLandscape/frontTrees.png"
+image: "/assets/images/ProcedurallyGeneratedLandscape/frontTrees.png"
 description: Emulating terrain with code.
 ---
 #### <b>Procedurally Generated Landscapes<b>
@@ -55,7 +55,7 @@ vertex(0,yBackMountains[0])
 endShape(CLOSE)
 ```
 If we draw both sets of mountains like above, our output will look something like the image below. Since the perlin noise function is random, the mountains will change each time that the function is run.
-![mountains](\images\ProcedurallyGeneratedLandscape\mountains.png)
+![mountains](\assets\images\ProcedurallyGeneratedLandscape\mountains.png)
 <p style="font-size:20px; padding: 0em 0 0em 0em;"> 2. Drawing and Placing Trees</p>
 
 Now that we can draw both the front and back mountains, we need to work on drawing both sets of trees. Although we could probably write a recursive function to make the tree branches, I decided to create the assets in Illustrator. I created four different tree styles based on a few tree references, and created four slightly different trees by flipping the other styles horizontally. 
@@ -70,7 +70,7 @@ yBackTree = randAmplitude * sin(angle) * cos(angle) + (0.55*windowHeight) + rand
 ```
 When drawing the trees, I made sure to randomly select one of the images I created, as long as the same image doesn't appear twice in a row. There is a problem, however, in that the lower portions of the branches create a gap between them, shown below, which makes the trees look artificial.
 
-![badBackTrees](\images\ProcedurallyGeneratedLandscape\badBackTrees.png)
+![badBackTrees](\assets\images\ProcedurallyGeneratedLandscape\badBackTrees.png)
 
 To solve this, I created a polygon of the same color of the trees which lies below the top of the trees, essentially masking the lower empty space. To do it, I ran through all of the points containing trees and added a vertex 150 px below the top of the tree. As I did before with the mountain polygon, I added several points to make the shape have a closed form.
 
@@ -86,11 +86,11 @@ endShape(CLOSE)
 ```
 The addition of this polygon makes the trees appear much denser than they are, shown below.
 
-![goodBackTrees](\images\ProcedurallyGeneratedLandscape\goodBackTrees.png)
+![goodBackTrees](\assets\images\ProcedurallyGeneratedLandscape\goodBackTrees.png)
 
 For the front trees, I split the process into two lines, one on each side. Then, I went along the line and added a tree along the line plus or minus some random variation in the y-height. Since the trees are closer to the viewpoint, only the tops of the trees are seen, so a polygon on the bottom wasn't necessary.
 
-![frontTrees](\images\ProcedurallyGeneratedLandscape\frontTrees.png)
+![frontTrees](\assets\images\ProcedurallyGeneratedLandscape\frontTrees.png)
 
 <p style="font-size:20px; padding: 1em 0 0em 0em;"> 3. Bringing It All Together</p>
 

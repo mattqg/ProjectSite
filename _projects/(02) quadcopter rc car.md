@@ -1,7 +1,7 @@
 ---
 name: Quadcopter RC Car
 tools: [CAD, Failure Analysis, FEA]
-image: "/images/QuadcopterRCCar/render.png"
+image: "/assets/images/QuadcopterRCCar/render.png"
 description: Making a driving drone and flying car.
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: Plywood 3D Printer
 tools: [CAD, Electronics, Hackathon]
-image: "/images/Plywood3DPrinter/Benchy.jpg"
+image: "/assets/images/Plywood3DPrinter/Benchy.jpg"
 description: Making a wooden benchy.
 ---
 #### <b>Plywood 3D Printer<b>
