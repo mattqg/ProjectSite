@@ -11,7 +11,7 @@ repository          : mattqg/Project_Site      # repository metadata on GitHub P
 ### Author Info ###
 author:
   name              : mattqg
-  image             : https://raw.githubusercontent.com/yontartu/yontartu.github.io/master/images/delicate.jpg
+  image             : "/assets/images/HeadshotMQGwhite.png"
 # behance           : your_username
 # dribbble          : your_username
   email             : matt@mattmakes.dev

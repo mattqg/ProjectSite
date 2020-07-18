@@ -11,7 +11,7 @@ body {
 #container {
     display: inline-block;
     position: relative;
-    width: 100%;
+    width: 60%;
 }
 
 #dummy {
@@ -29,12 +29,37 @@ body {
 .circle-image {
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-// Footer
-.social {
-    text-decoration: none !important;
-}
+.container p span.typed-text {
+    color: #4C90DC;
+    margin-top: 100px;
+    font-weight: normal;
+    font-size: 30px
+  }
+  //dd7732 orange, 2196F3 lighter blue
+
+
+.container p span.cursor {
+    display: inline-block;
+    background-color: white;
+    margin-left: 0.1rem;
+    width: 2px;
+    animation: blink 1s infinite;
+  }
+
+.container p span.cursor.typing {
+    animation: none;
+  }
+
+  
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
