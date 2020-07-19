@@ -1,25 +1,25 @@
 ### Site Settings ###
-title               : Matt Makes
-description         : >-                               # >- means to ignore newlines until "url:"
-                     A collection of my personal projects and blog about creative coding and mechanical design. 
-                                          
-url                 : "https://https://mattqg.github.io/"                      # base hostname & protocol for your site (e.g. http://example.com)
-baseurl             : ""                               # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
-repository          : mattqg/Project_Site      # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
+title: Matt Makes
+description: >- # >- means to ignore newlines until "url:"
+  A collection of my personal projects and blog about creative coding and mechanical design.
+
+url: "https://https://mattqg.github.io/" # base hostname & protocol for your site (e.g. http://example.com)
+baseurl: "" # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+repository: mattqg/Project_Site # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
 #remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
 
 ### Author Info ###
 author:
-  name              : mattqg
-  image             : "/assets/images/HeadshotMQG3.png"
-# behance           : your_username
-# dribbble          : your_username
-  email             : matt@mattmakes.dev
-# facebook          : your_username
-  github            : mattqg
-# gitlab            : your_username
-# instagram         : your_username
-  linkedin          : matthewqgothard
+  name: mattqg
+  image: "/assets/images/HeadshotMQG3.png"
+  # behance           : your_username
+  # dribbble          : your_username
+  email: matt@mattmakes.dev
+  # facebook          : your_username
+  github: mattqg
+  # gitlab            : your_username
+  # instagram         : your_username
+  linkedin: matthewqgothard
 # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
@@ -30,15 +30,12 @@ author:
 # vimeo             : your_username
 # youtube           : your_channel_name
 
-
 ### Pagination ###
 paginate: 6
 paginate_path: "/articles/page-:num/"
 
-
 ### Posts Permalink ###
 permalink: articles/:title
-
 
 ### Collections ###
 collections:
@@ -46,6 +43,11 @@ collections:
     output: true
     permalink: /projects/:name
 
+### Analytics ###
+analytics:
+  enabled: true
+  google:
+    tracking_id: UA-163714485-3
 
 ### Defaults for collections ###
 defaults:
@@ -55,11 +57,10 @@ defaults:
     values:
       layout: "page"
 
-
 ### Exclude from processing ###
 exclude:
-- README.md
-- CONTRIBUTING.md
-- LICENSE
-- Gemfile
-- Gemfile.lock
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
