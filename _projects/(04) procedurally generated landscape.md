@@ -5,7 +5,7 @@ image: "/assets/images/ProcedurallyGeneratedLandscape/frontTrees.png"
 description: Emulating terrain with code.
 ---
 #### <b>Procedurally Generated Landscapes<b>
-<p style="font-size:15px; padding: 0 0 1em 0;">March 20, 2020</p>
+<p style="font-size:15px; padding: 0em 0 1em 0;">March 20, 2020</p>
 
 During my Artlab fellowship in 2019, I began to explore emulating nature through code. I began by looking at landscape portraits and exploring algorithms which attempted to describe them, such as the boids algorithm for simulating flocking birds. 
 
@@ -56,7 +56,7 @@ endShape(CLOSE)
 ```
 If we draw both sets of mountains like above, our output will look something like the image below. Since the perlin noise function is random, the mountains will change each time that the function is run.
 ![mountains](\assets\images\ProcedurallyGeneratedLandscape\mountains.png)
-<p style="font-size:20px; padding: 0em 0 0em 0em;"> 2. Drawing and Placing Trees</p>
+<p style="font-size:20px; padding: 1em 0 0em 0em;"> 2. Drawing and Placing Trees</p>
 
 Now that we can draw both the front and back mountains, we need to work on drawing both sets of trees. Although we could probably write a recursive function to make the tree branches, I decided to create the assets in Illustrator. I created four different tree styles based on a few tree references, and created four slightly different trees by flipping the other styles horizontally. 
 
@@ -94,31 +94,38 @@ For the front trees, I split the process into two lines, one on each side. Then,
 
 <p style="font-size:20px; padding: 1em 0 0em 0em;"> 3. Bringing It All Together</p>
 
-Now that all of the individual elements have been created, I needed to bring them together. The first thing that I did was to define all of the points for the mountain and tree sections in the setup() loop. This allowed for the To draw the elements in the draw() loop, I simply had to run through the arrays previously created. I wanted the image to change in a set time frame, so I used millis() to reset the randomSeed and rerun the functions in the setup() loop. 
-
+Now that all of the individual elements have been created, I needed to bring them together. The first thing that I did was to define all of the points for the mountain and tree sections in the setup() loop. This allowed for most of the heavy lifting to be done once in the setup. To draw the elements in the draw() loop, I simply had to run through the arrays previously created and draw the elements. I wanted the image to change in a set time frame, so I used millis() and a simple timer to reset the randomSeed and rerun the initialization functions, which re-randomizes the scene. 
 ``` javascript
 
 setup(){
 	randSeed = random()
+	timer = 0
 	initMountains(randSeed)
 	initTrees(randSeed)
 }
 
 draw(){
-	if 
 	drawMountains()
 	drawTrees()
+
+	if(millis() > timer + delayTiming*1000){
+		newSeed = random()
+		initMountains();
+		initTrees();
+	}
 }
 ```
+{% capture carousel_images %}
+https://mattqg.com/assets/images/WebsiteLayout.png
+https://mattqg.com/assets/images/WebsiteLayout.png
+https://mattqg.com/assets/images/WebsiteLayout.png
+{% endcapture %}
+{% include elements/carousel.html %}
 
 Feel free to modify the code and create some landscapes for yourself at the 
 [OpenProcessing page](https://www.openprocessing.org/sketch/836383/).
 
-{% capture carousel_images %}
-https://bit.ly/2BBbVhc
-https://bit.ly/2DOtxXB
-{% endcapture %}
-{% include elements/carousel.html %}
+
 
 
 <!-- <iframe style="width: 640px; height: 500px; overflow: hidden;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/embed/B1j5yC2vQ"></iframe> -->
