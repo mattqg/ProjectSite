@@ -96,7 +96,6 @@ For the front trees, I split the process into two lines, one on each side. Then,
 
 Now that all of the individual elements have been created, I needed to bring them together. The first thing that I did was to define all of the points for the mountain and tree sections in the setup() loop. This allowed for most of the heavy lifting to be done once in the setup. To draw the elements in the draw() loop, I simply had to run through the arrays previously created and draw the elements. I wanted the image to change in a set time frame, so I used millis() and a simple timer to reset the randomSeed and rerun the initialization functions, which re-randomizes the scene. 
 ``` javascript
-
 setup(){
 	randSeed = random()
 	timer = 0
@@ -110,20 +109,26 @@ draw(){
 
 	if(millis() > timer + delayTiming*1000){
 		newSeed = random()
-		initMountains();
-		initTrees();
+		initMountains(newSeed);
+		initTrees(newSeed);
 	}
 }
 ```
+
+The final result allows for you to emulate the shutterstock terrain while maintaining ownership of the picture! I have included several of my results below. Due to the random nature of the code, a seemingly infinite amount of images can be created until you find one which suits your needs.
+
 {% capture carousel_images %}
-https://mattqg.com/assets/images/WebsiteLayout.png
-https://mattqg.com/assets/images/WebsiteLayout.png
-https://mattqg.com/assets/images/WebsiteLayout.png
+https://mattqg.com/assets/images/ProcedurallyGeneratedLandscape/result1.png
+https://mattqg.com/assets/images/ProcedurallyGeneratedLandscape/result2.png
+https://mattqg.com/assets/images/ProcedurallyGeneratedLandscape/result3.png
+https://mattqg.com/assets/images/ProcedurallyGeneratedLandscape/result4.png
+https://mattqg.com/assets/images/ProcedurallyGeneratedLandscape/result5.png
+https://mattqg.com/assets/images/ProcedurallyGeneratedLandscape/result6.png
 {% endcapture %}
 {% include elements/carousel.html %}
 
-Feel free to modify the code and create some landscapes for yourself at the 
-[OpenProcessing page](https://www.openprocessing.org/sketch/836383/).
+Thanks for taking the time to read through the project. If you want to look at the code or have any questions, [drop me a line.](mailto:me@mattqg.com)
+
 
 
 
