@@ -12,7 +12,7 @@ I am an engineer, inventor, coder, and artist interested in mechanical design, r
 <br>
 
 <br>
-Feel free to take a look at [my resume](https://mattqg.com/resume), and get [in contact](mailto:me@mattqg.com). 
+Feel free to take a look at [my resume](https://mattqg.com/assets/resume.pdf), and get [in contact](mailto:me@mattqg.com). 
 <br>
 
 
