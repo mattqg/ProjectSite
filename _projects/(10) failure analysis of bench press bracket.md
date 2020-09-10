@@ -1,6 +1,6 @@
 <!-- ---
-name: Analysis of a Bench Press Bracket 
+name: Fatigue Analysis of a Bench Press Bracket 
 tools: [CAD, FEA, Failure Analysis]
-image: 
-description: 
+image: "/assets/images/FailureAnalysisOfABenchPressBracket/cad.png"
+description: Preventing pain while getting gains.
 --- -->
