@@ -11,4 +11,4 @@ description: Preventing disaster while lifting faster.
 
 
 
-<model-viewer style = "margin:0 auto; width:50%; height:400px" src = "\assets\3d\benchpress\squatrackassembly.glb" alt="A 3D model of the squat rack" auto-rotate camera-controls></model-viewer> 
+<model-viewer style = "margin:0 auto; width:100%; height:400px" src = "\assets\3d\benchpress\squatrackassembly.glb" alt="A 3D model of the squat rack" auto-rotate camera-controls></model-viewer> 
