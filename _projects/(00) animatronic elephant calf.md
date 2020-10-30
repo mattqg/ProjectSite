@@ -24,7 +24,7 @@ Our first constraint given to the team by the Nashville Zoo was that the elephan
 
 Our group split into subteams, and I took over the design of the elephant's head and neck. I began by designing a neck mechanism which allowed for three rotational degrees of freedom. The design was inspired by commonly used animatronic neck mechanisms, but with the caveat that it needed to be laid out horizontally. I decided to utilize a ball joint driven by two servo motors at the base of neck, achieving the pitch and roll of the head. The third degree of freedom, the yaw, was initially brainstormed to be directly driven by a geared servo motor. The yaw mechanism was placed at the top of the neck to lower the potential moment on the bearing, which I believe to be the most likely failure point. 
 
-<model-viewer style = "margin:0 auto; width:100%; height:400px" src="\assets\3d\elephant\scene (5).glb" camera-controls="" camera-orbit="-946.7deg 81.94deg 0.2772m" field-of-view="45deg" auto-rotate exposure="0.7" shadow-intensity="4.2">
+<model-viewer style = "margin:0 auto; width:100%; height:400px" src="\assets\3d\elephant\neck_mechanism.glb" camera-controls="" camera-orbit="-946.7deg 81.94deg 0.2772m" field-of-view="45deg" auto-rotate exposure="0.7" shadow-intensity="4.2">
       <button class="Hotspot" slot="hotspot-2" data-position="0.00012337881128898776m 0m 0.0001867815366639186m" data-normal="0m -1m 0m" data-visibility-attribute="visible">
         <div class="HotspotAnnotation">To Body</div>
     </button><button class="Hotspot" slot="hotspot-6" data-position="-0.0010306765710463512m 0.1407576674230993m 0.023481078032237673m" data-normal="-0.04524233323050839m 0.9520946813038174m -0.30243817404031886m" data-visibility-attribute="visible">
