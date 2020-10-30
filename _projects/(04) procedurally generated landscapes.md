@@ -115,7 +115,7 @@ draw(){
 }
 ```
 
-The final result allows for you to emulate the shutterstock terrain while maintaining ownership of the picture! I have included several of my results below. Due to the random nature of the code, a seemingly infinite amount of images can be created until you find one which suits your needs.
+The final result allows for you to emulate the shutterstock terrain while maintaining ownership of the picture! I have included several of my results below. Due to the random nature of the code, a wide range of images can be created and fine-tuned until you find one which suits your needs.
 
 {% capture carousel_images %}
 https://mattqg.com/assets/images/ProcedurallyGeneratedLandscapes/result1.png
@@ -128,3 +128,4 @@ https://mattqg.com/assets/images/ProcedurallyGeneratedLandscapes/result6.png
 {% include elements/carousel.html %}
 
 Thanks for reading through the project. If you want to look at the code or have any questions, [drop me a line.](mailto:me@mattqg.com)
+
