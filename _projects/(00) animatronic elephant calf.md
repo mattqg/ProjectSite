@@ -95,7 +95,6 @@ Our group split into subteams, and I took over the design of the elephant's head
 
 <!-- ![neck_cad](\assets\images\AnimatronicElephantCalf\neck_cad.gif) -->
 
-
 After designing the neck mechanism, I quickly shifted over to the trunk design as it appeared to be approaching the critical path. I found quite a few good sources on designing trunks, tentacles, and tails, which allowed for a quick proof of concept design, shown below. I attached basic servo motors to the trunk and began to program its movements.
 
 <div id="banner" style="overflow: hidden;justify-content:space-around">

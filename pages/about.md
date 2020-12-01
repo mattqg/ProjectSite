@@ -16,7 +16,7 @@ I have been lucky to have worked with and learned from some amazing teams. I dev
 {% include about/timeline.html %}
 </div> -->
 
-I would love to hear from you, whether you want to talk more about the projects here, or are looking for someone to join your team. Here is my [resume](/mattqg_resume.pdf), and you can reach me through my [email](mailto:me@mattqg.com). 
+I would love to hear from you, whether you want to talk more about the projects here, or are looking for someone to join your team. Here is my [resume](/resume.pdf), and you can reach me through my [email](mailto:me@mattqg.com). 
 <br>
 
 
