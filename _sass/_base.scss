@@ -63,3 +63,33 @@ body {
     99% { background-color: transparent; }
     100%  { background-color: #ccc; }
   }
+
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+  .arrow{
+    position: relative;
+    bottom: 30px;
+    right: 60px;
+    z-index: 9;
+  }
+  .arrow a{
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #1b1b1b;
+    display: block;
+    border-radius: 3px;
+  }
+  .arrow a span{
+    color: #f2f2f2;
+    font-size: 25px;
+    line-height: 39px;
+    cursor: pointer;
+  }
+
+  a:hover, a:focus, a:active, a:visited, a:link{
+    text-decoration: none;
+}

@@ -114,3 +114,10 @@ I also began to design the frame of the elephant's head out of 80/20 extrusions.
 This project is a work in progress, set to finish in spring 2021. I will update this page is the project develops. Thanks for stopping by!
 
 <br>
+
+
+<!-- <footer class="mt-auto py-3 text-center">
+  <div class="arrow">
+    <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+  </div>
+</footer> -->

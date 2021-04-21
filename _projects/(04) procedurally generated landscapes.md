@@ -129,3 +129,8 @@ https://mattqg.com/assets/images/ProcedurallyGeneratedLandscapes/result6.png
 
 Thanks for reading through the project. If you want to look at the code or have any questions, [drop me a line.](mailto:me@mattqg.com)
 
+<!-- <footer class="mt-auto py-3 text-center">
+  <div class="arrow">
+    <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+  </div>
+</footer> -->
