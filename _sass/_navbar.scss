@@ -1,34 +1,37 @@
 .link-after {
-    content: '';
+    content: "";
     display: block;
-    height: .15em;
+    height: 0.15em;
     background: $primary;
-}
-
-.nav-link, .navbar-brand {
+    // rgb(120,230,300)
+  }
+  
+  .nav-link,
+  .navbar-brand {
     &::after {
-        @extend .link-after;
-        width: 0;
-        transition: width .35s;
+      @extend .link-after;
+      width: 0;
+      transition: width 0.35s;
     }
-
+  
     &:hover::after {
-        width: 100%;
+      width: 100%;
     }
-}
-
-.nav-item.active {
+  }
+  
+  .nav-item.active {
     font-weight: bold;
-    
+  
     &::after {
-        @extend .link-after;
-        width: 100%!important;
+      @extend .link-after;
+      width: 100% !important;
     }
-}
-
-.navbar-brand {
+  }
+  
+  .navbar-brand {
     margin-bottom: -14px;
     &::after {
-        margin-top: -.25em;
+      margin-top: -0.25em;
     }
-}
+  }
+  

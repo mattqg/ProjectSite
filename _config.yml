@@ -1,47 +1,55 @@
 ### Site Settings ###
-title: Matt Makes
-description: >- # >- means to ignore newlines until "url:"
-  A collection of my personal projects and blog about creative coding and mechanical design.
 
-url: "https://https://mattqg.github.io/" # base hostname & protocol for your site (e.g. http://example.com)
-baseurl: "" # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
-repository: mattqg/Project_Site # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
-#remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
+### Site Settings ###
+url: "https://https://mattqg.github.io/"
+baseurl: ""
+repository: mattqg/Project_Site
+title: Matt Makes
+description: A collection of my personal projects and blog about creative coding and mechanical design.
+
+### Navbar Settings ###
+nav_exclude:
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - pages/documentation/**
+  - pages/blog.html
 
 ### Author Info ###
 author:
   name: mattqg
   image: "/assets/images/HeadshotMQG3.png"
-  # behance           : your_username
-  # dribbble          : your_username
   email: me@mattqg.com
-  # facebook          : your_username
   github: mattqg
+  linkedin: mattqg
+  # facebook          : your_username
   # gitlab            : your_username
   # instagram         : your_username
-  linkedin: mattqg
-# medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-# twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
+  # behance           : your_username
+  # dribbble          : your_username
+  # medium            : your_username
+  # soundcloud        : your_username
+  # spotify           : your_username
+  # stackoverflow     : your_user_id
+  # tumblr            : your_username.tumblr.com
+  # twitch            : your_username
+  # twitter           : your_username
+  # vimeo             : your_username
+  # youtube           : your_channel_name
 
-### Pagination ###
-paginate: 6
-paginate_path: "/articles/page-:num/"
+### Posts ###
+permalink: /blog/:title
 
-### Posts Permalink ###
-permalink: articles/:title
+# disqus:
+#   shortname: your-disqus-shortname
 
 ### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
+  elements:
+    output: true
 
 ### Analytics ###
 analytics:
@@ -56,11 +64,27 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "elements"
+    values:
+      layout: "element"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false
 
-### Exclude from processing ###
+plugins:
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jemoji
+
 exclude:
-  - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
+  - test/
+  - docs/Gemfile
+  - docs/Gemfile.lock
+  - docs/_site/
+  - docs/.sass-cache/
