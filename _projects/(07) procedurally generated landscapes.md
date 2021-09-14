@@ -5,7 +5,7 @@ image: "/assets/images/ProcedurallyGeneratedLandscapes/frontTrees.png"
 description: Emulating terrain with code.
 ---
 #### <b>Procedurally Generated Landscapes<b>
-<p style="font-size:15px; padding: 0em 0 1em 0;">March 20, 2020</p>
+<p style="font-size:15px; padding: 0em 0 1em 0;">March, 2020</p>
 
 During my Artlab fellowship in 2019, I began to explore emulating nature through code. I began by looking at landscape portraits and exploring algorithms which attempted to describe them, such as the boids algorithm for simulating flocking birds. 
 

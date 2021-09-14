@@ -6,7 +6,7 @@ description: Building a robotic Dumbo.
 ---
 
 #### <b>Animatronic Elephant Calf</b>
-<p style="font-size:15px; padding: 0 0 1em 0;">October 25, 2020</p>
+<p style="font-size:15px; padding: 0 0 1em 0;">October, 2020</p>
 
 For my senior design project, I am working on a developing an animatronic elephant calf for an upcoming expansion at the Nashville Zoo. I chose this project because it is in its very early stages of development. Every single aspect of the design, from mechanical to electrical to software will be completely defined by our senior design team. This gives a lot of room for creative design solutions across disciplines, which I really enjoy.
 
