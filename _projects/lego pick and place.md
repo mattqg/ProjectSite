@@ -3,6 +3,7 @@ name: Lego Pick and Place
 tools: [Machine Design, Motion Control, Python]
 image: "/assets/images/LegoPickandPlace/SideView.jpg"
 description: Placing bricks with some clicks.
+sequence: 3
 ---
 
 #### <b>Lego Pick and Place</b>

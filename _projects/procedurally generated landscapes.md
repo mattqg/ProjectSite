@@ -3,6 +3,7 @@ name: Procedurally Generated Landscapes
 tools: [p5.js, Art]
 image: "/assets/images/ProcedurallyGeneratedLandscapes/frontTrees.png"
 description: Emulating terrain with code.
+sequence: 3
 ---
 #### <b>Procedurally Generated Landscapes<b>
 <p style="font-size:15px; padding: 0em 0 1em 0;">March, 2020</p>

@@ -20,12 +20,11 @@
     font-size: 14px;
     margin-top: -6px;
   }
-
-  .tag:hover {
-    background-color: $primary;
-    color: white !important;
-  }
-
+  
+  // .tag:hover {
+  //   background-color: $primary;
+  //   color: white !important;
+  // }
   footer {
     font-size: 10px;
     color: #6c757d;
@@ -45,12 +44,12 @@
     background: $secondary;
   }
 
-  img:not(.emoji) {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 1rem auto;
-  }
+  // img:not(.emoji) {
+  //   display: block;
+  //   max-width: 100%;
+  //   height: auto;
+  //   margin: 1rem auto;
+  // }
 
   .video {
     position: relative;
@@ -68,23 +67,23 @@
     display: inline-block;
     text-decoration: none;
 
-    &:hover {
-      color: $primary;
-    }
+    // &:hover {
+    //   color: $primary;
+    // }
 
-    &::after {
-      content: "";
-      display: block;
-      height: 0.15em;
-      margin-top: -0.15em;
-      width: 0;
-      background: $primary;
-      transition: width 0.35s;
-    }
+    // &::after {
+    //   content: "";
+    //   display: block;
+    //   height: 0.15em;
+    //   margin-top: -0.15em;
+    //   width: 0;
+    //   background: $primary;
+    //   transition: width 0.35s;
+    // }
 
-    &:hover::after {
-      width: 100%;
-    }
+    // &:hover::after {
+    //   // width: 100%;
+    // }
   }
 
   pre {
@@ -112,7 +111,7 @@
   }
 
   blockquote {
-    border-left: 0.25em solid $primary;
+    // border-left: 0.25em solid $primary;
     color: $secondary;
     padding: 0 1em;
   }
@@ -133,7 +132,7 @@
       padding-bottom: 12px;
       font-weight: 500;
       text-align: left;
-      background-color: $primary;
+      // background-color: $primary;
       color: white;
     }
 

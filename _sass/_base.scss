@@ -10,91 +10,91 @@ body {
     font-weight: 500;
 }
 
-// Fine Circle Responsive Image
-// Inspired by https://stackoverflow.com/a/6615994/10194811
-#container {
-    display: inline-block;
-    position: relative;
-    width: 60%;
-}
+// // Fine Circle Responsive Image
+// // Inspired by https://stackoverflow.com/a/6615994/10194811
+// #container {
+//     display: inline-block;
+//     position: relative;
+//     width: 60%;
+// }
 
-#dummy {
-    padding-top: 100%; /* 1:1 aspect ratio */
-}
+// #dummy {
+//     padding-top: 100%; /* 1:1 aspect ratio */
+// }
 
-#element {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+// #element {
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+// }
 
-.circle-image {
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    object-fit: cover;
-    object-position: center;
-}
+// .circle-image {
+//     width: 100%;
+//     height: 100%;
+//     border-radius: 100%;
+//     object-fit: cover;
+//     object-position: center;
+// }
 
-.container p span.typed-text {
-    color: #9A91E6;
-    margin-top: 100px;
-    font-weight: normal;
-    font-size: 30px
-  }
-  //dd7732 orange, 2196F3 lighter blue
+// .container p span.typed-text {
+//     color: #9A91E6;
+//     margin-top: 100px;
+//     font-weight: normal;
+//     font-size: 30px
+//   }
+//   //dd7732 orange, 2196F3 lighter blue
 
 
-.container p span.cursor {
-    display: inline-block;
-    background-color: white;
-    margin-left: 0.1rem;
-    width: 2px;
-    animation: blink 1s infinite;
-  }
+// .container p span.cursor {
+//     display: inline-block;
+//     background-color: white;
+//     margin-left: 0.1rem;
+//     width: 2px;
+//     animation: blink 1s infinite;
+//   }
 
-.container p span.cursor.typing {
-    animation: none;
-  }
+// .container p span.cursor.typing {
+//     animation: none;
+//   }
 
   
-  @keyframes blink {
-    0%  { background-color: #ccc; }
-    49% { background-color: #ccc; }
-    50% { background-color: transparent; }
-    99% { background-color: transparent; }
-    100%  { background-color: #ccc; }
-  }
+//   @keyframes blink {
+//     0%  { background-color: #ccc; }
+//     49% { background-color: #ccc; }
+//     50% { background-color: transparent; }
+//     99% { background-color: transparent; }
+//     100%  { background-color: #ccc; }
+//   }
 
 
-  html{
-    scroll-behavior: smooth;
-  }
+//   html{
+//     scroll-behavior: smooth;
+//   }
 
-  .arrow{
-    position: relative;
-    bottom: 30px;
-    right: 60px;
-    z-index: 9;
-  }
-  .arrow a{
-    height: 39px;
-    width: 37px;
-    text-align: center;
-    background: #1b1b1b;
-    display: block;
-    border-radius: 3px;
-  }
+//   .arrow{
+//     position: relative;
+//     bottom: 30px;
+//     right: 60px;
+//     z-index: 9;
+//   }
+//   .arrow a{
+//     height: 39px;
+//     width: 37px;
+//     text-align: center;
+//     background: #1b1b1b;
+//     display: block;
+//     border-radius: 3px;
+//   }
 
-  .arrow a span{
-    color: #f2f2f2;
-    font-size: 25px;
-    line-height: 39px;
-    cursor: pointer;
-  }
+//   .arrow a span{
+//     color: #f2f2f2;
+//     font-size: 25px;
+//     line-height: 39px;
+//     cursor: pointer;
+//   }
 
-  a:hover, a:focus, a:active, a:visited, a:link{
-    text-decoration: none;
-}
+//   a:hover, a:focus, a:active, a:visited, a:link{
+//     text-decoration: none;
+// }

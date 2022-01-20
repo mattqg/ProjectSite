@@ -1,18 +1,13 @@
 <head>
-  <script type="text/javascript">
-    (function (d, u, h, s) {
-      h = d.getElementsByTagName('head')[0];
-      s = d.createElement('script');
-      s.async = 1;
-      s.src = u + new Date().getTime();
-      h.appendChild(s);
-    })(document, 'https://grow.clearbitjs.com/api/pixel.js?v=');
-  </script>
-  
+
   {% assign title = page.title | default: site.title | escape %}
   {% assign description = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 %}
 
   {% if page.name and page.collection == 'projects' %}
+    {% assign title = page.name | escape %}
+  {% endif %}
+  
+  {% if page.name and page.collection == 'about' %}
     {% assign title = page.name | escape %}
   {% endif %}
 

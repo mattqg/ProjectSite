@@ -3,6 +3,7 @@ name: Formlabs R&D Intern
 tools: [Solidworks, Python, DFM]
 image: "/assets/images/Formlabs/Formlabs.jpg"
 description: Designing 3D printers in Durham.
+sequence: 1
 ---
 
 #### <b>Formlabs R&D Intern<b>
@@ -10,7 +11,7 @@ description: Designing 3D printers in Durham.
 
 At Formlabs, I helped develop the next generation of 3D printing technologies. 
 
-I primarily worked on redesigning a testing jig for the factory calibration of the Form 3 SLA printer. Challenges included CAD design, GD&T, and coding the testing script in python.
+I primarily worked on redesigning a testing jig for the factory calibration of the Form 3 SLA printer. Challenges included CAD design, GD&T, and coding the testing script in Python.
 
 <br>
 ![testing jig](\assets\images\Formlabs\jig.png)

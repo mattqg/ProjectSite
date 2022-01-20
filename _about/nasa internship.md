@@ -3,6 +3,7 @@ name: NASA R&D Intern
 tools: [CAD, Manufacturing, Electronics]
 image: "/assets/images/NASA/nasa.png"
 description: Reimagining reaction wheels.
+sequence: 2
 ---
 
 #### <b>NASA R&D Intern<b>

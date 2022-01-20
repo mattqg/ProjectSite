@@ -33,8 +33,11 @@
   {% endfor %}
 
   <!-- Local Projects -->
-  {% for project in site.projects %}
+  {% assign sorted = site.projects | sort: 'sequence' %}
+  {% for project in sorted %}
 
+  {% if project.work, 'true' %}
+  {% else %}
   {%- assign project_type = "local" -%}
   {%- assign project_id = project.name | slugify -%}
   {%- assign project_img = project.image -%}
@@ -50,6 +53,7 @@
 
   {% include projects/project-card.html %}
 
+  {% endif %}
   {% endfor %}
 
 </div>
