@@ -2,7 +2,8 @@
 name: Formlabs R&D Intern
 tools: [Solidworks, Python, DFM]
 image: "/assets/images/Formlabs/Formlabs.jpg"
-description: Designing 3D printers in Durham.
+# description: Designing 3D printers in Durham
+description: Designing 3D printers.
 sequence: 1
 ---
 

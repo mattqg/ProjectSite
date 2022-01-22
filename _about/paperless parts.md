@@ -1,9 +1,9 @@
 ---
-name: NASA R&D Intern
-tools: [CAD, Mechatronics]
+name: Paperless Parts
+tools: [Python, Manufacturing, DFM]
 image: "/assets/images/NASA/nasa.png"
-description: Reimagining reaction wheels.
-sequence: 2
+description: Quoting parts quickly. 
+sequence: 3
 ---
 
 #### <b>NASA R&D Intern<b>
