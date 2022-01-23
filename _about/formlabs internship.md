@@ -18,6 +18,10 @@ I primarily worked on redesigning a testing jig for the factory calibration of t
 ![testing jig](\assets\images\Formlabs\jig.png)
 <br>
 
-I also worked on material testing where I assembled an electromechanical mechanism to test material properties under various conditions. I created a script which ran the test, collected data, and instantly visualized those data from hundreds of experimental trials.
+I also worked on material testing where I assembled an electromechanical mechanism to test material properties under various conditions. I created a script which ran the test, collected data, and instantly visualized those data from hundreds of experimental trials. These tests were are early feasiibility study for the development of the recently released build platform 2.
+
+<br>
+![build platform 2](\assets\images\Formlabs\buildplatform.jpg)
+<br>
 
 <br>
