@@ -8,10 +8,9 @@
   }
 }
 
-#theme-toggler:before {
-  @include themed(content, "Dark", "Light");
-}
-
+// #theme-toggler:before {
+//   @include themed(content, "Dark", "Light");
+// }
 
 .navbar-themed {
 

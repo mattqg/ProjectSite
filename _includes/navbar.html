@@ -1,26 +1,26 @@
 <nav class="navbar navbar-expand-lg navbar-themed">
-
+  
   <a class="navbar-brand" href="{{ site.baseurl }}/">
     <h5><b>{{ site.title }}</b></h5>
   </a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
     <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
-
+  
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
-
+    
       {%- assign html_pages = site.html_pages | sort: 'weight' -%}
       {%- assign filtered_pages = "" | split: "" -%}
 
       {%- for html_page in html_pages -%}
 
       {%- assign exclude = false -%}
+      
 
       {%- for exclude_path in site.nav_exclude -%}
-
       {%- if exclude_path == html_page.path -%}
       {%- assign exclude = true -%}
       {%- break -%}
@@ -32,7 +32,10 @@
       {%- endif -%}
       {%- endif -%}
 
+
+
       {%- endfor -%}
+
 
       {%- unless exclude -%}
       {%- assign filtered_pages = filtered_pages | push: html_page -%}
@@ -54,12 +57,17 @@
       {%- assign url = html_page.url | relative_url -%}
       {%- endif -%}
 
+      {%- if html_page.title contains 'About'-%}
       <a class="nav-item nav-link {{ active_status }}" href="{{ url }}">{{ html_page.title }}</a>
-
+      {%- endif -%}
+      
       {% endfor %}
-
-      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+ 
     </div>
+
+    <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()">
+    </span>
+
   </div>
 
 </nav>
