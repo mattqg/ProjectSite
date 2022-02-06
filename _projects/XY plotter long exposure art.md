@@ -1,7 +1,7 @@
 ---
 name: LED Plotter Painting
 tools: [CAD, Electronics, Art]
-image: "/assets/images/XYPlotterLongExposure/head.png"
+image: "/assets/images/XYPlotterLongExposure/head.webp"
 description:  Drawing pictures with light.
 sequence: 4
 ---
@@ -17,10 +17,10 @@ I built an XY plotter with an LED for the end-effector. With python control soft
 <br>
 
 {% capture carousel_images %}
-https://mattqg.com/assets/images/XYPlotterLongExposure/head.png
-https://mattqg.com/assets/images/XYPlotterLongExposure/ohio.png
-https://mattqg.com/assets/images/XYPlotterLongExposure/shape.png
-https://mattqg.com/assets/images/XYPlotterLongExposure/vanderbilt.png
+https://mattmakes.xyz/assets/images/XYPlotterLongExposure/head.png
+https://mattmakes.xyz/assets/images/XYPlotterLongExposure/ohio.png
+https://mattmakes.xyz/assets/images/XYPlotterLongExposure/shape.png
+https://mattmakes.xyz/assets/images/XYPlotterLongExposure/vanderbilt.png
 {% endcapture %}
 {% include elements/carousel.html %}
 

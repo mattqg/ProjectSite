@@ -2,7 +2,7 @@
 name: Handwritten Digital Circuits
 tools: [Python, Tensorflow, OpenCV]
 image: "/assets/images/DigitalCircuits/digital_sim_1.webp"
-description: Drawing and simulating logical links.
+description: Drawing logical links.
 sequence: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: Animatronic Elephant Calf
 tools: [CAD, Mechanical Design, Electronics]
-image: "/assets/images/AnimatronicElephantCalf/elephant.png"
+image: "/assets/images/AnimatronicElephantCalf/elephant.webp"
 description: Designing a robotic Dumbo.
 sequence: 3
 ---

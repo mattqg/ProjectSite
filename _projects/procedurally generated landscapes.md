@@ -1,7 +1,7 @@
 ---
 name: Procedurally Generated Landscapes
 tools: [p5.js, Art]
-image: "/assets/images/ProcedurallyGeneratedLandscapes/frontTrees.png"
+image: "/assets/images/ProcedurallyGeneratedLandscapes/frontTrees.webp"
 description: Emulating terrain with code.
 sequence: 3
 ---
@@ -119,12 +119,12 @@ draw(){
 The final result allows for you to emulate the shutterstock terrain while maintaining ownership of the picture! I have included several of my results below. Due to the random nature of the code, a wide range of images can be created and fine-tuned until you find one which suits your needs.
 
 {% capture carousel_images %}
-https://mattqg.com/assets/images/ProcedurallyGeneratedLandscapes/result1.png
-https://mattqg.com/assets/images/ProcedurallyGeneratedLandscapes/result2.png
-https://mattqg.com/assets/images/ProcedurallyGeneratedLandscapes/result3.png
-https://mattqg.com/assets/images/ProcedurallyGeneratedLandscapes/result4.png
-https://mattqg.com/assets/images/ProcedurallyGeneratedLandscapes/result5.png
-https://mattqg.com/assets/images/ProcedurallyGeneratedLandscapes/result6.png
+https://mattmakes.xyz/assets/images/ProcedurallyGeneratedLandscapes/result1.png
+https://mattmakes.xyz/assets/images/ProcedurallyGeneratedLandscapes/result2.png
+https://mattmakes.xyz/assets/images/ProcedurallyGeneratedLandscapes/result3.png
+https://mattmakes.xyz/assets/images/ProcedurallyGeneratedLandscapes/result4.png
+https://mattmakes.xyz/assets/images/ProcedurallyGeneratedLandscapes/result5.png
+https://mattmakes.xyz/assets/images/ProcedurallyGeneratedLandscapes/result6.png
 {% endcapture %}
 {% include elements/carousel.html %}
 

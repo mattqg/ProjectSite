@@ -29,6 +29,7 @@
   @include themed(color, $text-black, $text-white);
 }
 
+
 .bg-themed {
   @include themed(background-color, $light, $dark);
 }
@@ -38,5 +39,3 @@
     @include themed(background-color, $light, $dark);
   }
 }
-
-

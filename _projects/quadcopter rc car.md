@@ -1,7 +1,7 @@
 ---
 name: Quadcopter RC Car
 tools: [CAD, Failure Analysis, FEA]
-image: "/assets/images/QuadcopterRCCar/render.png"
+image: "/assets/images/QuadcopterRCCar/render.webp"
 description: Making a driving drone and flying car.
 sequence: 1
 ---
@@ -16,7 +16,7 @@ We designed a combined Quadcopter - RC Car to be light enough for flight and res
 {% include elements/video.html id="1p1pWR7zXtM" %}
 <br>
 
-I worked with my classmate Alex on the design and we built out the first prototype with a few friends. Once the prototype was built, I focused on obstacle detection using a monocular depth model, <a href="https://github.com/nianticlabs/monodepth2" target="_blank">monodepth2</a>, with preliminary depth testing results shown below.
+I worked with my classmate Alex on the design and the first prototype was built with a few friends. Once the prototype was built, I focused on obstacle detection using a monocular depth model, <a href="https://github.com/nianticlabs/monodepth2" target="_blank">monodepth2</a>, with preliminary depth testing results shown below.
 
 <br>
 

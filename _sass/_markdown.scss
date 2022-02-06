@@ -8,7 +8,7 @@
       background: $secondary;
     }
   
-    img:not(.emoji) {
+    img:not(.emoji):not(.card-img-top) {
       display: block;
       max-width: 100%;
       height: auto;
@@ -27,12 +27,12 @@
       }
     }
   
-    a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline) {
+    a:not(.btn):not([class^="carousel-"]):not([class^="list-"]):not(.no-underline):not(.card) {
       display: inline-block;
       text-decoration: none;
   
       &:hover {
-        color: $primary;
+        color: #007bff;
       }
   
       &::after {
@@ -41,7 +41,7 @@
         height: 0.15em;
         margin-top: -0.15em;
         width: 0;
-        background: $primary;
+        background: #007bff;
         transition: width 0.35s;
       }
   

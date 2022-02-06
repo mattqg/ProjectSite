@@ -50,7 +50,7 @@ $dark-900: #17191a;
       background-color: rgba(0, 0, 0, 0.1);
     }
   }
-
+  
   // Tables
   table:not(.highlight) {
     td {
@@ -72,7 +72,10 @@ $dark-900: #17191a;
       background-color: darken($color: $dark-600, $amount: 3);
     }
   }
-
+  .link-after {
+    background: white;
+  }
+    
   // Post
   .post footer {
     text-decoration: none;
