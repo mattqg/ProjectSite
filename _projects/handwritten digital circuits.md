@@ -12,11 +12,11 @@ sequence: 1
 
 Early this year, I came across a <a href="https://www.researchgate.net/publication/357067777_Detection_of_circuit_components_on_hand-drawn_circuit_images_by_using_faster_R-CNN_method/fulltext/61bb37cb4b318a6970e57aeb/Detection-of-circuit-components-on-hand-drawn-circuit-images-by-using-faster-R-CNN-method.pdf?origin=publication_detail" target="_blank">research paper </a> describing the detection of hand-written circuit elements through convolutional neural networks. The model was able to take an input of a drawn circuit diagram and is able to label each element as a resistor, inductor, capacitor, etc.
 
- Using this paper as inspiration, I set out to create an interactive *digital circuit simulator* which can take a handwritten drawing and output a responsive logic simulator. The coding logic can be split into three distinct sections: image processing, model training, and circuit simulating.  
+ Using this paper as inspiration, I set out to create an *interactive digital circuit simulator* which can take a handwritten drawing and output a responsive logic simulator. The coding logic can be split into three distinct sections: image processing, model training, and circuit simulating.  
   
 <br> 
 ##### **Image Processing**
-To quickly create the many necessary handwritten images, I decided to write digitally. This prevents scanning inconsistencies, but my approach could certainly be extended to scanned images on paper with added initial processing steps. Within the images, words to label each digital circuit element connected by lines. I decided to start with the initial building blocks of digital logic, including *inputs*, *outputs*, *and*, *or*, *not*, and *xor*.
+To quickly create the many necessary handwritten images, I decided to write digitally. This prevents scanning inconsistencies, but my approach could certainly be extended to scanned images on paper with added initial processing steps. To label each element, written words are used and connected by lines. I decided to start with the initial building blocks of digital logic, including *inputs*, *outputs*, *and*, *or*, *not*, and *xor*.
 
 ![test input](\assets\images\DigitalCircuits\image_test_1.png)
 
@@ -126,7 +126,7 @@ def propagate_states(word, prev_state):
 
 The user interface for the simulation was done using an OpenCV window and `cv2.EVENT_LBUTTONDOWN` to listen for input. The window is also capable of quickly changing themese to any user-defined colorscape. 
 
-The final program is shown below. The only necessary input necessary is a hand-drawn image which the final simulation will convert to your own personalized digital circuit playground.
+The final program is shown below. The only input necessary to the code is a hand-drawn image which the final simulation will convert to your own personalized digital circuit playground.
 
 <br>
 
