@@ -124,7 +124,7 @@ def propagate_states(word, prev_state):
             propagate_states(child, child.state)
 ```
 
-The user interface for the simulation was done using an OpenCV window and `cv2.EVENT_LBUTTONDOWN` to listen for input. The window is also capable of quickly changing themese to any user-defined colorscape. 
+The user interface for the simulation was done using an OpenCV window and `cv2.EVENT_LBUTTONDOWN` to listen for input. The window is also capable of quickly changing themes to any user-defined colorscape. 
 
 The final program is shown below. The only input necessary to the code is a hand-drawn image which the final simulation will convert to your own personalized digital circuit playground.
 

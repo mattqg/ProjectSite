@@ -1,9 +1,10 @@
 ---
-name: NASA R&D Intern
+name: NASA
 tools: [CAD, Mechatronics]
 image: "/assets/images/NASA/nasa.png"
 description: Reimagining reaction wheels.
 sequence: 2
+show: true
 ---
 
 #### <b>NASA R&D Intern<b>

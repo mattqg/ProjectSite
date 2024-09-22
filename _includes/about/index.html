@@ -1,35 +1,41 @@
-Hello and welcome to my site! My name is Matt and I like to make stuff. I am a mechanical enigneer based in Cambridge, MA who enjoys working at the intersection of technologies while continuously growing and learning.
-  <br><br>
-  
-  I have worked on mechanical engineering teams at NASA and Formlabs and am currently developing geometry-driven quoting software for job shops at Paperless Parts.
-  <br><br>
-  
-  I would love to hear from you, whether you want to chat about projects or are looking for someone to join your team. Here is <a href="/resume.pdf" target="_blank">my resume</a>, and my email is me (at) mattqg (dot) com
+Hello and welcome to my site! My name is Matt and I like to make stuff. I am a mechanical enigneer based in Cambridge, MA who enjoys working at the intersection of technologies while continuously learning.
   <br>
   
-<div class="card-columns m-2 mt-5">
+  I have worked on mechanical engineering teams at NASA and Formlabs and am currently developing technology to print viscous liquids at AcousticaBio.
+  <br>
 
+  I love to chat about building cool things. You can reach me over email here: me [at] mattqg [dot] com
+
+  
+  <div class="card-columns mx-auto">
 
     <!-- Local Projects -->
 
     {% assign sorted = site.about | sort: 'sequence' %}
     {% for project in sorted %}
     
-    {%- assign project_type = "local" -%}
-    {%- assign project_id = project.name | slugify -%}
-    {%- assign project_img = project.image -%}
-    {%- assign project_name = project.name -%}
-    {%- assign project_desc = project.description -%}
-    {%- assign project_tools = project.tools -%}
-  
-    {%- if project.external_url -%}
-    {%- assign project_url = project.external_url -%}
-    {%- else -%}
-    {%- assign project_url = project.url | relative_url -%}
+    {%- if project.show -%}
+      {%- assign project_type = "local" -%}
+      {%- assign project_id = project.name | slugify -%}
+      {%- assign project_img = project.image -%}
+      {%- assign project_name = project.name -%}
+      {%- assign project_desc = project.description -%}
+      {%- assign project_tools = project.tools -%}
+    
+      {%- if project.external_url -%}
+      {%- assign project_url = project.external_url -%}
+      {%- else -%}
+      {%- assign project_url = project.url | relative_url -%}
+      {%- endif -%}
+    
+      {% include about/project-card.html %}
     {%- endif -%}
-  
-    {% include about/project-card.html %}
-  
     {% endfor %}
   
-  </div>
+</div>
+
+  <br>
+  <br>
+  
+<!-- Here is <a href="/resume.pdf" target="_blank">my resume</a>, and  -->
+  

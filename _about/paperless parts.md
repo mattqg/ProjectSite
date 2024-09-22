@@ -4,6 +4,7 @@ tools: [Python, Manufacturing, DFM]
 image: "/assets/images/Paperless/gradientpart.png"
 description: Quoting parts quickly. 
 sequence: 3
+# past: true
 ---
 
 #### <b>Paperless Parts<b>

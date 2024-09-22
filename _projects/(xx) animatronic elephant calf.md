@@ -1,4 +1,4 @@
----
+<!-- ---
 name: Animatronic Elephant Calf
 tools: [CAD, Mechanical Design, Electronics]
 image: "/assets/images/AnimatronicElephantCalf/elephant.webp"
@@ -15,7 +15,7 @@ Our final video deliverable below contains our final design and details the effo
 
 <br>
 {% include elements/video.html id="AU4-PxI-dYo" %}
-<br>
+<br> -->
 
 <!-- Our first constraint given to the team by the Nashville Zoo was that the elephant needed to be accurately scaled to a baby African Elephant, which is approximately 1 meter tall. Since it is difficult to get the accurate sizes of every part of the elephent, I decided to make a model to use for dimensioning. I worked in Blender with multiple reference images, and ended up with the model shown below. The file was exported as a .step, and imported directly into Solidworks for reference. 
 

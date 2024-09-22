@@ -1,4 +1,4 @@
----
+<!-- ---
 name: Quadcopter RC Car
 tools: [CAD, Failure Analysis, FEA]
 image: "/assets/images/QuadcopterRCCar/render.webp"
@@ -26,4 +26,4 @@ I worked with my classmate Alex on the design and the first prototype was built 
 
 The future goal of the project will be to couple the monocular depth map with obstacle avoidance to provide navigation guidance to the drone while flying.
 
-<br>
+<br> -->

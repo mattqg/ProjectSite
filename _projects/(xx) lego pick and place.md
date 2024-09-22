@@ -1,4 +1,4 @@
----
+<!-- ---
 name: Lego Pick and Place
 tools: [Machine Design, Motion Control, Python]
 image: "/assets/images/LegoPickandPlace/SideView.webp"
@@ -17,7 +17,7 @@ Key elements of this project include the design of the 3-axis motion platform, t
 
 <br>
 {% include elements/video.html id="4pxEuVrvEpg" %}
-<br>
+<br> -->
 
 
 <!-- <footer class="mt-auto py-3 text-center">

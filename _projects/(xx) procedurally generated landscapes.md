@@ -1,4 +1,4 @@
----
+<!-- ---
 name: Procedurally Generated Landscapes
 tools: [p5.js, Art]
 image: "/assets/images/ProcedurallyGeneratedLandscapes/frontTrees.webp"
@@ -136,4 +136,4 @@ Thanks for reading through the project. If you want to look at the code or have 
   <div class="arrow">
     <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
   </div>
-</footer> -->
+</footer> --> -->
